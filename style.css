@@ -1,0 +1,1179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    
+}
+/* 
+ <div class="card">
+            <img class="img" src="https://thumbs.dreamstime.com/b/purple-flower-2212075.jpg" alt="flowler">
+            <div class="animation">
+                <h2>Submit</h2>
+            </div>
+ </div>
+
+.animation{
+    width: 140px;
+    height: 70px;
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 40px;
+    left: -525px;
+    transition: 1s all ease-in-out;
+
+.card{
+    width: 450px;
+    height: 360px;
+    overflow: hidden;
+    position: relative; 
+}
+.main:hover .ani{
+    left: 125px;
+    transition: 0.5s all ease-in-out;
+    
+}
+.ani h2{
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+    
+} */
+header span{
+    background-color: #477018;
+    padding: 15px 14% 23px;
+    width: 100%;
+    display: block;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+/* Header section start */
+.container{
+    margin: 0 auto;
+    width: 1100px;
+}
+
+
+.nav-manu{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo h3{
+    color: #477018;
+    font-family: 'Rye', serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.nav-bar ul li{
+    padding-left: 50px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #282828;
+    font-size: 15px;
+    font-weight: 400;
+}
+.nav-bar ul li a:hover{
+    color: #477018;
+    font-weight: 600;
+    
+}
+
+
+.nav-icon i{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #477018;
+}
+/* Header section end */
+
+
+/* Back ground section start*/
+.back-ground{
+    background: url(./images/background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    width: 100%;
+    height: 600px;
+}
+/* Back ground section start*/
+
+
+/* Icon main card section start */
+.icon-main-card{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.icon-card{
+    border-radius: 25px;
+    border: 0.5px solid #C9C9C9;
+    background: #FFF;
+    width: 257px;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icon-dtls h3{
+    color: #282828;
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 25px;
+    padding-bottom: 5px;
+}
+.icon-dtls p{
+    color: #676767;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px; 
+}
+/* Icon main card section end */
+
+
+/* Fruits main card section start */
+.fruits-main-card{
+    margin-top: 100px;
+    overflow-x: scroll;
+}
+.fruits-card{
+    width: 170px;
+    height: 141px;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    
+}
+/* Fruits main card section end */
+
+
+/* Featured section start */
+.featured{
+    margin: 100px 0px;
+}
+.featured-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.featured-heading h2{
+    color: #282828;
+    font-size: 30px;
+    font-weight: 700;
+}
+.featured-heading a{
+    color: #F47606;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    padding-right: 10px;
+}
+.featured-heading i{
+    color: #F47606;
+}
+.featured-main-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+.featured-card{
+    width: 350px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+.featured-card img{
+    width: 100%;
+    height: 80%;
+}
+.featured-card-dtls{
+    margin-top: 20px;
+    text-align: center;
+    line-height: 26px;
+}
+.featured-card-dtls img{
+    width: 100px;
+    height: 15px;
+}
+.featured-card-dtls h5{
+    color: #000;
+    font-weight: 650;
+    font-size: 16px;
+}
+.animation{
+    width: 240px;
+    height: 70px;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 85px;
+    left: -525px;
+    transition: 1s all ease-in-out;
+    display: grid;
+    gap: 5px;
+}
+.featured-card:hover .animation{
+    left: 30%;
+    transition: 1s all ease-in-out;
+    color: #000;
+    
+    
+}
+.animation img{
+    width: 70%;
+    height: 50%;
+}
+.animation-two{
+    width: 100%;
+    height: 70%;
+    bottom: 100px;
+    left: -525px;
+}
+.animation-two img{
+    width: 100px;
+    height: 5px;
+    padding-top: 140px;
+    margin: 10px 0 0 85px;
+    /* margin-left: 80px; */
+}
+.product-card:hover .animation-two{
+     left: 0%;
+     border-radius: 42px;
+     background: rgba(40, 40, 40, 0.80);
+}
+/* Featured section end */
+
+
+/* Choose section start */
+.choose h1{
+    padding-top: 100px;
+    color: #282828;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.choose-main-card{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.choose-img img{
+    height: 80%;
+}
+.choose-card{
+    width: 350px;
+    height: 150px;
+    border: none;
+    justify-content: space-between;
+}
+
+.choose-dtls h3{
+    color: #000;
+    font-size: 18px;
+}
+/* Choose section end */
+
+
+
+/* Healthy section start */
+.healthy{
+    margin-top: 130px;
+    padding-bottom: 130px;
+}
+.healthy-dtls{
+    background-image: url(./images/Healthy-background.png);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    padding: 92px 104px;
+}
+.healthy-dtls h1{
+    color: #282828;
+    font-size: 40px;
+    font-weight: 700;
+}
+.healthy-dtls p{
+    color: #676767;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 20px 0 30px;
+}
+.healthy-dtls button{
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    background: #477018;
+    padding: 14px 50px;
+    cursor: pointer;
+}
+/* Healthy section end */
+
+
+/* Category section start */
+.category-heading a{
+    padding:0 20px;
+    color: #676767;
+}
+
+.category-link a:hover{
+    color: #F47606;
+    font-weight: 600;
+}
+/* Category section end */
+
+
+/* Deal section start */
+.deal{
+    margin-top: 130px;
+}
+.deal-dtls{
+    display: flex;
+    align-items: center;
+}
+.deal-dtls samp{
+    font-weight: 550;
+}
+.deal-dtls p{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 650;
+    border-radius: 10px;
+    background: #F47606;
+    padding: 10px 15px;
+    margin-right: 20px;
+}
+.deal-dtls span p{
+    background: #F9F9F9;
+    color: #F47606;
+}
+/* Deal section end */
+
+
+/* Fresh section start */
+.fresh-dtls{
+    background-image: url(./images/Fresh-img.png);
+    padding: 85px 104px;
+}
+.fresh-dtls h1{
+    font-size: 35px;
+}
+.fresh-dtls p{
+    font-size: 18px;
+    color: #282828;
+}
+/* Fresh section end */
+
+
+/* Top section start */
+.top-heading a{
+    color: #676767;    
+}
+.top-heading i{
+    color: #676767;
+}
+.top-products{
+    margin-bottom: 130px;
+}
+/* Top section end */
+
+
+/* Product section start */
+.product{
+    padding-top: 130px;
+}
+.product-main-card{
+    grid-template-columns: repeat(4,1fr);
+}
+.product-card{
+    width: 267px;
+    height: 350px;
+}
+.product-card img{
+    height: 70%;
+}
+.product-card p{
+    color: #000;
+    font-size: 13px;
+    font-weight: 500;
+}
+/* Product section end */
+
+
+/* Testimonial section start */
+.testimonial{
+    margin-top: 130px;
+}
+.main-testimonial{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonial-left{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 0.5px solid #C9C9C9;
+    padding: 26px 56px;
+}
+.testimonial-dtls p{
+    color: #676767;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.testimonial-icon{
+    display: flex;
+    align-items: center;
+}
+.testimonial-name{
+    padding-left: 15px;
+}
+.testimonial-name h3{
+    color: #282828;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.testimonial-name p{
+    color: #676767;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.testimonial-right{
+    width: 47%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flora-smith{
+    border-radius: 10px;
+    border: 0.5px solid #C9C9C9;
+    height: 190px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 15px 56px;
+    width: 100%;
+}
+.flora-icon{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.flora-icon p{
+    width: 100px;
+}
+.flora-icon img{
+    width: 22px;
+    margin-left: 210px;
+}
+
+/* Testimonial section end */
+
+
+/* Latest section start */
+.latest-main-card{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+.latest h1{
+    padding-top: 150px;
+    color: #282828;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.latest-card{
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    border: 0.5px solid #C9C9C9;
+    background: #FFF;
+    
+}
+.latest-card img{
+    width: 100%;
+    height: 46%;
+}
+.latest-all-dtls{
+    padding: 24px 28px;
+}
+.latest-dtls{
+    display: flex;
+    align-items: center;
+    padding-bottom: 14px ;
+}
+.latest-dtls p{
+    margin-right: 20px;
+    color: #676767;
+    font-size: 14px;
+    font-weight: 400;
+}
+.latest-dtls img{
+    width: 16px;
+    margin-right: 10px;
+}
+.latest-card h2{
+    color: #000;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 30px; 
+}
+.latest-card input{
+    margin: 30px 0;
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid #C9C9C9;
+}
+.latest-date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.latest-date a{
+    color: #F47606;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+/* Latest section end */
+
+
+/* Footer section start */
+footer{
+    background: #373C33;
+    margin-top: 130px;
+}
+footer h3{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px; 
+    padding-bottom: 20px;
+}
+footer a{
+    margin-top: 15px;
+}
+.all-footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* gap: 20px; */
+    padding: 130px 0;
+}
+.organic{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.organic-logo h3{
+    color: #FFF;
+}
+.organic-img{
+    padding: 12px;
+    background-color: #477018;
+    justify-content: center;
+    border-radius: 100%;
+}
+.organic-icon-one img{
+    width: 90%;
+}
+.imgages-two{
+    width: 60px;
+}
+.imgages-two img{
+    width: 95%;
+}
+.organic-icon-one p{
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.organic-icon-one h3{
+    color: rgba(255, 255, 255, 0.80);
+    line-height: 28px; 
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.customer-service{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+
+}
+
+.customer-service a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px; 
+}
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.newsletter a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 26px;
+}
+.newsletter input{
+    width: 250px;
+    height: 56px;
+    border-radius: 10px;
+    background: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 14px;
+    border: none;
+}
+.btn {
+    position: absolute;
+    right: -40px;
+    bottom: 47%;
+    display: flex;
+    flex-direction: column;
+} 
+
+.newsletter button{
+    height: 56px;
+    border-radius: 10px;
+    background: #F47606;
+    padding: 14px 20px;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+/* Footer section end */
+
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+    header span{
+        background-color: #477018;
+        padding: 15px 14% 23px;
+        width: 100%;
+        display: block;
+        color: #FFF;
+        font-size: 15px;
+        font-weight: 300;
+    }
+/* Header section start */
+.container{
+    width: 100%;
+}
+.all{
+    text-align: center;
+    background-color: #477018;
+    width: 100%;
+
+}
+.nav-manu{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-bar ul{
+    flex-direction: column;
+}
+.nav-bar ul li{
+    padding-right: 40px;
+    margin-top: 10px;
+}
+
+.nav-icon{
+    display: flex;
+    flex-direction: column;
+}
+.nav-icon img{
+    width: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.nav-icon i{
+    margin-top: 20px;
+    padding-left: 15px;
+  
+}
+/* Header section end */
+
+
+/* Back ground section start*/
+.back-ground{
+    margin-top: 30px;
+    width: 100%;
+}
+/* Back ground section start*/
+
+
+/* Icon main card section start */
+.icon-main-card{
+    margin-top: 0px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1,1fr);
+
+}
+.icon-card{
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 30%;
+}
+.icon-dtls h3{
+    color: #282828;
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 25px;
+    padding-bottom: 5px;
+}
+.icon-dtls p{
+    color: #676767;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px; 
+}
+/* Icon main card section end */
+
+
+/* Fruits main card section start */
+.fruits-main-card{
+    margin-top: 100px;
+    overflow-x: scroll;
+}
+.fruits-card{
+    width: 170px;
+    height: 141px;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+    
+}
+/* Fruits main card section end */
+
+
+/* Featured section start */
+.featured{
+    margin: 100px 0px;
+}
+.featured-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20px 50px ;
+}
+.featured-heading h2{
+    color: #282828;
+    font-size: 30px;
+    font-weight: 700;
+}
+.featured-heading a{
+    color: #F47606;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    padding-right: 10px;
+}
+.featured-heading i{
+    color: #F47606;
+}
+.featured-main-card{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 94px;
+}
+.featured-card{
+    width: 350px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 20%;
+}
+.featured-card img{
+    width: 100%;
+    height: 80%;
+}
+.featured-card-dtls{
+    margin-top: 20px;
+    text-align: center;
+    line-height: 26px;
+}
+.featured-card-dtls img{
+    width: 100px;
+    height: 15px;
+}
+.featured-card-dtls h5{
+    color: #000;
+    font-weight: 650;
+    font-size: 16px;
+}
+.animation{
+    width: 240px;
+    height: 70px;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 85px;
+    left: -525px;
+    transition: 1s all ease-in-out;
+    display: grid;
+    gap: 5px;
+}
+.featured-card:hover .animation{
+    left: 30%;
+    transition: 1s all ease-in-out;
+    color: #000;
+    
+    
+}
+.animation img{
+    width: 70%;
+    height: 50%;
+}
+.animation-two{
+    width: 100%;
+    height: 70%;
+    bottom: 100px;
+    left: -525px;
+}
+.animation-two img{
+    width: 100px;
+    height: 5px;
+    padding-top: 140px;
+    margin: 10px 0 0 85px;
+}
+.product-card:hover .animation-two{
+     left: 0%;
+     border-radius: 42px;
+     background: rgba(40, 40, 40, 0.80);
+}
+/* Featured section end */
+
+
+/* Choose section start */
+.choose h1{
+    padding-top: 100px;
+    color: #282828;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.choose-main-card{
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+    align-items: center;
+}
+.choose-img img{
+    height: 80%;
+}
+.choose-card{
+    width: 350px;
+    height: 150px;
+    border: none;
+    justify-content: space-between;
+    margin-left: 25%;
+}
+
+.choose-dtls h3{
+    color: #000;
+    font-size: 18px;
+}
+/* Choose section end */
+
+
+
+/* Healthy section start */
+.healthy{
+    margin-top: 130px;
+    padding-bottom: 130px;
+}
+.healthy-dtls{
+    background-image: url(./images/Healthy-background.png);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    padding: 92px 104px;
+    text-align: center;
+}
+.healthy-dtls h1{
+    color:white ;
+    font-size: 40px;
+    font-weight: 700;
+}
+.healthy-dtls p{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 20px 0 30px;
+}
+.healthy-dtls button{
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    background: #477018;
+    padding: 14px 50px;
+    cursor: pointer;
+}
+/* Healthy section end */
+
+
+/* Category section start */
+
+.category-link{
+    margin-left: 50px;
+}
+.category-heading a{
+    padding:0 20px;
+    color: #676767;
+    /* padding-left: 50px; */
+}
+
+.category-link a:hover{
+    color: #F47606;
+    font-weight: 600;
+}
+/* Category section end */
+
+
+/* Deal section start */
+.deal{
+    margin-top: 130px;
+}
+.deal-dtls{
+    display: flex;
+    align-items: center;
+}
+.deal-dtls samp{
+    font-weight: 550;
+}
+.deal-dtls p{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 650;
+    border-radius: 10px;
+    background: #F47606;
+    padding: 10px 15px;
+    margin-right: 20px;
+}
+.deal-dtls span p{
+    background: #F9F9F9;
+    color: #F47606;
+}
+/* Deal section end */
+
+
+/* Fresh section start */
+.fresh-dtls{
+    background-image: url(./images/Fresh-img.png);
+    padding: 85px 104px;
+}
+.fresh-dtls h1{
+    font-size: 35px;
+}
+.fresh-dtls p{
+    font-size: 18px;
+    color: #FFF;
+}
+/* Fresh section end */
+
+
+/* Top section start */
+.top-heading a{
+    color: #676767;    
+}
+.top-heading i{
+    color: #676767;
+}
+.top-products{
+    margin-bottom: 130px;
+}
+/* Top section end */
+
+
+/* Product section start */
+
+.product-main-card{
+    grid-template-columns: repeat(1,1fr);
+}
+
+/* Product section end */
+
+
+/* Testimonial section start */
+.main-testimonial{
+    flex-direction: column;
+}
+
+.testimonial-right{
+    margin-top: 20px;
+}
+.flora-smith{
+    padding: 15px;
+}
+
+.flora-icon img{
+    margin-left: 50px;
+}
+/* Testimonial section end */
+
+
+/* Latest section start */
+.latest-main-card{
+    grid-template-columns: repeat(1,1fr);
+    gap: 24px;
+}
+.latest-card{
+    margin-left: 25%;
+}
+
+/* Latest section end */
+
+
+/* Footer section start */
+
+footer h3{
+ 
+    padding-bottom: 15px;
+}
+footer a{
+    margin-top: 15px;
+}
+.all-footer{
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    padding: 130px 20px;
+}
+.organic{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.organic-img{
+    padding: 12px;
+    background-color: #477018;
+    justify-content: center;
+    border-radius: 100%;
+}
+.organic-icon-one img{
+    width: 90%;
+}
+.imgages-two{
+    width: 60px;
+}
+.imgages-two img{
+    width: 95%;
+}
+.organic-icon-one p{
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.organic-icon-one h3{
+    color: rgba(255, 255, 255, 0.80);
+    line-height: 28px; 
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.customer-service{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+
+}
+
+.customer-service a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px; 
+}
+
+.newsletter{
+    padding-left: 50px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.newsletter a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 26px;
+}
+.newsletter input{
+    width: 250px;
+    height: 56px;
+    border-radius: 10px;
+    background: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 14px;
+    border: none;
+}
+.btn {
+    position: absolute;
+    right: -15px;
+    bottom: 24.5%;
+    display: flex;
+    flex-direction: column;
+} 
+/* Footer section end */
+
+
+}
